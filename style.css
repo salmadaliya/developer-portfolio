@@ -11,7 +11,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexi {
     display: flex;
     margin-bottom: 150px;
 }
@@ -43,4 +43,18 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.box {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    padding: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 20px;
+    border-left: 10px solid silver;
+}
+
+footer {
+    text-align: center;
 }
